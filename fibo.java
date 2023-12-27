@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class Fibo {
-
-    static int fib(int n) {
+    public static int fib(int n) {
         if (n <= 1) {
             return n;
         } else {
