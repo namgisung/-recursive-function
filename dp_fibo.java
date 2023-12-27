@@ -4,7 +4,7 @@ public class Fibonacci {
 
     static int[] dp = new int[100];
 
-    static int dp_fib(int n) {
+    public static int dp_fib(int n) {
         if (dp[n] != 0) {
             return dp[n];
         } else if (n == 0) {
